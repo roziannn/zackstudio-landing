@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { BiColor, BiSolidBriefcaseAlt2, BiSolidLike, BiSolidShoppingBag } from "react-icons/bi";
 import { BsBox } from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
@@ -23,7 +22,7 @@ export default function Home() {
         <div className="absolute top-0 left-1/4 w-72 h-72 bg-emerald-500/20 blur-3xl rounded-full pointer-events-none"></div>
         <div className="absolute bottom-10 right-1/4 w-64 h-64 bg-emerald-400/20 blur-3xl rounded-full pointer-events-none"></div>
 
-        <h1 className="relative z-10 text-6xl font-semibold mb-4 text-emerald-400 leading-tight">Zackstudio hadir untukmu 🚀</h1>
+        <h1 className="relative z-10 text-5xl md:text-6xl  font-semibold mb-4 text-emerald-400 leading-tight">Zackstudio hadir untukmu 🚀</h1>
         <p className="relative z-10 text-xl md:text-2xl max-w-2xl mb-10 leading-relaxed">Bantu kamu ngerjain, nyelesain, dan ngerapiin proyek biar hasilnya rapi, cepat, dan siap pakai.</p>
 
         <div className="relative z-10 flex flex-col sm:flex-row gap-4 mb-10">
@@ -39,9 +38,9 @@ export default function Home() {
 
         <div className="relative z-10 flex flex-wrap justify-center gap-4 text-zinc-300 text-sm md:text-base mt-20">
           <span className="font-semibold text-xl text-white">50+ Happy Clients</span>
-          <span>|</span>
+          <span className="hidden md:block">|</span>
           <span className="font-semibold text-xl text-white">35+ Project Aplikasi</span>
-          <span>|</span>
+          <span className="hidden md:block">|</span>
           <span className="font-semibold text-xl text-white">20+ Design Systems</span>
         </div>
       </section>
