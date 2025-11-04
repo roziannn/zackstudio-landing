@@ -26,11 +26,17 @@ export default function Home() {
         <p className="relative z-10 text-xl md:text-2xl max-w-2xl mb-10 leading-relaxed">Bantu kamu ngerjain, nyelesain, dan ngerapiin proyek biar hasilnya rapi, cepat, dan siap pakai.</p>
 
         <div className="relative z-10 flex flex-col sm:flex-row gap-4 mb-10">
-          <a href="#services" className="flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-emerald-500 bg-emerald-500 text-white font-medium shadow hover:bg-emerald-600 transition">
+          <a
+            href="https://wa.me/6281314516594?text=Halo,%20saya%20ingin%20bertanya"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-emerald-500 bg-emerald-500 text-white font-medium shadow hover:bg-emerald-600 transition"
+          >
             <SiWhatsapp className="w-4 h-4" />
             WhatsApp Me
           </a>
-          <a href="#about" className="flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-emerald-500 text-emerald-500 hover:bg-emerald-900/30 transition">
+
+          <a href="#services" className="flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-emerald-500 text-emerald-500 hover:bg-emerald-900/30 transition">
             <BiSolidBriefcaseAlt2 className="w-4 h-4" />
             Services
           </a>
@@ -106,7 +112,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Zackstudio Section */}
-      <section className="py-16 px-4 md:px-10 max-w-6xl mx-auto mt-8">
+      <section id="why-choose-us" className="py-16 px-4 md:px-10 max-w-6xl mx-auto mt-8">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 text-emerald-400">Why Choose Zackstudio?</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
